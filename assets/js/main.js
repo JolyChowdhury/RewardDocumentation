@@ -97,4 +97,25 @@
 	_scrollSpy();
 	stickToTop();
 
+
+	$('.slick-slider').slick({
+		slidesToShow: 1,  
+		slidesToScroll: 1,
+		autoplay: true,  
+		autoplaySpeed: 3000,  
+		dots: true,  
+		arrows: false,  
+		'prevArrow': '<div class="slide-arrow-left"><i class="fa fa-angle-left"></i></div>',
+        'nextArrow': '<div class="slide-arrow-right"><i class="fa fa-angle-right"></i></div>',
+		responsive: [
+			{
+				breakpoint: 768,  
+				settings: {
+					slidesToShow: 1,  
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+
 })(window, document, jQuery);

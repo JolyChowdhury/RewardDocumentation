@@ -5831,6 +5831,7 @@ li img {
     line-height: 1;
 }
 
+.footer-desc p,
 .footer-menu li a {
     color: #FFF;
     font-family: var(--font-primary);

@@ -1,6 +1,19 @@
 (function (window, document, $) {
 	'use strict';
 
+	document.querySelectorAll('.has-sub-menu > a').forEach(menu => {
+		menu.addEventListener('click', function (e) {
+			e.preventDefault();
+			const parent = this.parentElement;
+			parent.classList.toggle('open');
+			const subMenu = parent.querySelector('.sub-nav');
+			if (subMenu) {
+				subMenu.classList.toggle('hidden');
+			}
+		});
+	});
+	
+
 	//variables
 	var _window = $(window),
 		_document = $(document),

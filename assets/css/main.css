@@ -5126,6 +5126,31 @@ p {
     }
 }
 
+.hidden {
+    display: none;
+}
+
+.has-sub-menu > .sub-nav {
+    margin-top: 1rem;
+}
+
+.has-sub-menu > a {
+    position: relative;
+    cursor: pointer;
+}
+
+.has-sub-menu > a::after {
+    content: ">";
+    position: absolute;
+    right: 0;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+
+.has-sub-menu.open > a::after {
+    transform: rotate(-90deg);
+}
+
 .doc-nav {
     padding-left: 0;
     list-style: none
@@ -5155,7 +5180,7 @@ p {
 
 .doc-nav a.active,
 .doc-nav a:hover {
-    color: var(--action-color)
+    color: var(--action-color);
 }
 
 .tips {

@@ -92,18 +92,17 @@
 								<input type="text" class="search-input" placeholder="Search item" />
 							</div>
 						</form>
-						<ol class="doc-nav">
+						<ul class="doc-nav">
 							<li>
-								<a class="nav-link" href="/reward-race-overview/overview.html">Reward Race Overview</a>
+								<a class="nav-link" href="doc.html">Reward Race Overview</a>
 							</li>
 							<li><a class="nav-link" href="/dashbord/dashboard.html">Dashboard</a></li>
-
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="/reward-program/reward-program.html">Reward Program</a>
-								<ol class="sub-nav">
+								<ul class="sub-nav hidden">
 									<li>
 										<a class="nav-link" href="/reward-program/earn-points/earn-points.html">Ways to earn points</a>
-										<ol>
+										<ul>
 											<li>
 												<a class="nav-link" href="/reward-program/earn-points/sign-up.html">
 													Sign-up Reward</a>
@@ -123,12 +122,12 @@
 													Social Share Reward
 												</a>
 											</li>
-										</ol>
+										</ul>
 									</li>
 									<li>
 										<a class="nav-link" href="#section-2-2">Ways to redeem points</a>
-										<ol>
-											<li><a class="nav-link" href="#section-2-2-1">
+										<ul>
+											<li><a class="nav-link" href="/reward-program/redeem-point/discount.html">
 													Order Discount</a>
 											</li>
 											<li><a class="nav-link" href="#section-2-2-2">
@@ -137,35 +136,36 @@
 											<li><a class="nav-link" href="#section-2-2-3">
 													Free Product</a>
 											</li>
-										</ol>
+										</ul>
 									</li>
-								</ol>
+								</ul>
 							</li>
-							<li>
+
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-3">Referral Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-3-1">Generate Referral Link</a></li>
 									<li><a class="nav-link" href="#section-3-2">Referral Steps</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-4">VIP Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-4-1">VIP Tier Steps</a></li>
 									<li><a class="nav-link" href="#section-4-2">VIP Settings</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-5">Survey Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-5-1">Survey Steps</a></li>
 									<li><a class="nav-link" href="#section-5-2">Survey Report</a></li>
 									<li><a class="nav-link" href="#section-5-3">Widget Settings</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-6">Customers</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-6-1">Customers Data</a></li>
 									<li><a class="nav-link" href="#section-6-2">Customer Profile</a></li>
 									<li><a class="nav-link" href="#section-6-3">Import/Export</a></li>
@@ -174,9 +174,9 @@
 							<li>
 								<a class="nav-link" href="#section-7">Analytics</a>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-8">Settings</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-8-1">General settings</a></li>
 									<li><a class="nav-link" href="#section-8-2">Billing</a></li>
 									<li><a class="nav-link" href="#section-8-3">Branding</a></li>
@@ -185,7 +185,7 @@
 									<li><a class="nav-link" href="#section-8-6">Language</a></li>
 								</ol>
 							</li>
-						</ol>
+						</ul>
 					</nav>
 				</aside>
 				<main class="main">
@@ -196,7 +196,7 @@
 						<section id="section-2-1-1">
 							<h3>2.1.1. Sign-up Reward</h3>
 							<p>1. After click this edit button you can find out sign up rewards details.</p>
-							<img src="assets/images/doc/sign-up.png" alt="">
+							<img src="/assets/images/doc/points-img/sign-up.png" alt="sign-up">
 
 							<p>2. Each earning point page has a toggle button to activate or deactivate specific
 								programs.</p>
@@ -206,17 +206,19 @@
 								<li><strong>Inactive:</strong> These rules do not allow customers to earn points and
 									will be hidden from your widget or loyalty page.</li>
 							</ul>
-							<img src="assets/images/doc/active.png" alt="">
+							<img src="/assets/images/doc/points-img/active.png" alt="active">
 
 							<p>3. You can change the reward name using this modal, and after updating it.</p>
-							<img src="assets/images/doc/sign-up-3.png" alt="">
-							<img src="assets/images/doc/sign-up-4.png" alt="">
+							<img src="/assets/images/doc/points-img/sign-up-3.png" alt="modal">
+							<img src="/assets/images/doc/points-img/sign-up-4.png" alt="reward name">
 
 							<p>4. After change reward name you'll also see the summary reflect the new name.</p>
-							<img src="assets/images/doc/sign-up-5.png" alt="">
+							<img src="/assets/images/doc/points-img/sign-up-5.png" alt="summary">
 							<p>5. With this option, you can set reward points to give your customers as a welcome reward
 								and you'll also see the summary reflect the new points.</p>
-							<img src="assets/images/doc/sign-up-6.png" alt="">
+							<img src="/assets/images/doc/points-img/sign-up-6.png" alt="summary">
+							<p>6. After completing the setup, you must click the <strong>Create</strong> button otherwise, your setup will not work.</p>
+							<img src="/assets/images/doc/points-img/create.png" alt="summary">
 
 							<div class="tips">
 								<h4>Tips for Setting Up Sign-Up Points:</h4>
@@ -234,156 +236,6 @@
 										business performance.</li>
 								</ol>
 							</div>
-						</section>
-
-						<section id="section-2-1-3">
-							<h3>2.1.3 Birthday Rewards</h3>
-							<p>1. "Birthday reward" is a great way to make customers feel special and
-								appreciated, encouraging them to shop with you around their birthday. You can go
-								birthday reward page as same like others edit button then you have to active this
-								settings.</p>
-							<img src="assets/images/doc/birthday.png" alt="">
-							<p>2. If you set 100 points as a birthday reward.</p>
-							<p><strong>Example: </strong>Customer’s Birthday: X’s birthday is on April 10th.
-								On April 10th, X automatically receives 100 bonus points in her loyalty account as a
-								birthday gift from your store.
-							</p>
-
-							<div class="tips">
-								<h4>Tips for Setting Up Birthday Rewards:</h4>
-								<ol>
-									<li>Set a generous but manageable number of points to make customers feel
-										appreciated without affecting profitability.</li>
-									<li>Promote the Birthday Reward feature on your loyalty page and through email
-										campaigns to ensure customers provide their birth dates.</li>
-									<li>Send a reminder or personalized email near the customer’s birthday to let them
-										know about their reward.</li>
-									<li>Combine birthday rewards with special birthday discounts or offers to further
-										increase engagement and sales.</li>
-								</ol>
-							</div>
-						</section>
-
-						<section id="section-2-1-4">
-							<h3>2.1.4 Social Share Rewards</h3>
-							<p>1. "Social media rewards" settings is a great way to make customers engaging with your
-								store on social media. Customers can earn points for actions like following your social
-								media accounts, sharing your products, or liking your posts. This not only encourages
-								customer loyalty but also helps increase your brand’s visibility online. You can easily
-								set up these social media rewards in the app and start boosting your online engagement!
-							</p>
-							<img src="assets/images/doc/social.png" alt="">
-							<h3>2.1.4 Social Share Rewards</h3>
-							<p>
-								"Social Share Rewards" is an excellent feature to drive customer engagement on social
-								media. Customers can earn points for interacting with your brand's social accounts, such
-								as liking, sharing, or following. This not only boosts customer loyalty but also
-								increases your brand’s visibility and reach online. Below are the specific social media
-								actions you can set up with their respective rewards:
-							</p>
-							<!-- Facebook Like -->
-							<h4>1. Facebook Like</h4>
-							<p>Reward customers with points for liking your Facebook page. This is a simple yet
-								effective way to grow your follower base and stay connected with your audience, keeping
-								them updated on your latest products and offers.</p>
-							<p>Here’s how you can set it up:</p>
-							<ul>
-								<li><strong>1. Set a valid Facebook page URL:</strong> Make sure the URL you provide
-									links directly to your business’s official Facebook page.</li>
-								<li><strong>2. Assign a points value:</strong> Decide how many points customers will
-									earn for liking your page. For example, awarding 10–20 points can be a great
-									incentive without being overly generous.</li>
-							</ul>
-							<img src="assets/images/doc/facebook-like.png" alt="Facebook Like Reward Setup">
-
-							<!-- Follow Instagram  -->
-							<h4>2. Follow on Instagram</h4>
-							<p>Reward customers for following your Instagram account. This not only helps you build a
-								loyal community but also ensures your followers stay updated with your latest products,
-								promotions, and offers.</p>
-							<p>Here’s how you can set it up:</p>
-							<ul>
-								<li><strong>1. Set a valid Instagram username:</strong> Provide the correct username or
-									URL that links directly to your official Instagram account. Double-check to ensure
-									there are no errors.</li>
-								<li><strong>2. Assign a points value:</strong> Choose a reasonable number of points to
-									reward your customers for following your Instagram account. For example, 10–15
-									points is often an effective incentive.</li>
-							</ul>
-							<img src="assets/images/doc/instagram.png" alt="Instagram Follow Reward Setup">
-
-							<!-- X Follow -->
-							<h4>3. X (Twitter) Follow</h4>
-							<p>Reward customers with points for following your X (formerly Twitter) account. This helps
-								increase your follower base and keeps customers engaged with your brand updates,
-								announcements, and promotions.</p>
-							<p>Here’s how you can set it up:</p>
-							<ul>
-								<li><strong>1. Provide a valid X (Twitter) username:</strong> Enter your official X
-									(Twitter) handle to ensure customers are directed to your business’s account.
-									Double-check for accuracy to avoid broken links or confusion.</li>
-								<li><strong>2. Assign a points value:</strong> Set the number of points customers will
-									earn for following your account. A range of 10–15 points is usually effective in
-									motivating followers.</li>
-							</ul>
-							<img src="assets/images/doc/twitter-follow.png" alt="X Like Reward Setup">
-
-							<!-- Facebook Share -->
-							<h4>4. Facebook Share</h4>
-							<p>Reward customers with points for sharing your business on their Facebook account. This
-								helps boost your brand’s visibility, attract new followers, and keep your audience
-								engaged with updates, announcements, and promotions.</p>
-							<p>Here’s how you can set it up:</p>
-							<ul>
-								<li><strong>1. Set a valid Facebook page URL:</strong> Enter the URL of your official
-									Facebook page to ensure customers can easily share your content.</li>
-								<li><strong>2. Assign a points value:</strong> Decide how many points customers will
-									earn for sharing your business. A range of 10–20 points is generally effective in
-									encouraging engagement.</li>
-							</ul>
-							<img src="assets/images/doc/facebook-share.png" alt="Facebook Share Reward Setup">
-
-
-							<!-- X share -->
-							<h4>5. X (Twitter) Share</h4>
-							<p>Reward users for sharing your posts or products on X (formerly Twitter). This helps
-								increase your brand’s visibility and can attract new potential leads through your
-								customers' networks.</p>
-							<p>Here’s how you can set it up:</p>
-							<ul>
-								<li><strong>1. Set a valid X account URL:</strong> Provide the URL of your official X
-									account to ensure customers are directed to your business page for sharing.</li>
-								<li><strong>2. Set a default caption:</strong> Add a predefined caption that customers
-									can use when sharing your posts. Ensure the caption is clear, engaging, and
-									highlights your product or offer.</li>
-								<li><strong>3. Assign a points value:</strong> Choose how many points customers will
-									earn for sharing your posts. Typically, 10–20 points work well to encourage
-									participation.</li>
-							</ul>
-							<img src="assets/images/doc/x-share.png" alt="X Share Reward Setup">
-
-
-
-							<div class="tips">
-								<h4>Tips to Maximize Social Share Rewards:</h4>
-								<ol>
-									<li><strong>Encourage meaningful actions:</strong> Reward customers for actions that
-										add real value, such as sharing product reviews or posts about new launches.
-									</li>
-									<li><strong>Set achievable rewards:</strong> Offer points that are enticing but
-										sustainable, like 50 points for sharing a post or 20 points for following your
-										page.</li>
-									<li><strong>Highlight benefits:</strong> Let customers know how their social media
-										actions support your brand, e.g., "Share this product and earn 50 points while
-										spreading the word about sustainable shopping!"</li>
-									<li><strong>Monitor performance:</strong> Track which social media platforms bring
-										the most engagement and adjust your rewards strategy accordingly.</li>
-									<li><strong>Leverage trends:</strong> Tie social media rewards to trending topics or
-										events to increase participation, e.g., "Earn double points for sharing during
-										Black Friday week!"</li>
-								</ol>
-							</div>
-
 						</section>
 
 						<!-- ============================

@@ -93,18 +93,17 @@
 								<input type="text" class="search-input" placeholder="Search item" />
 							</div>
 						</form>
-						<ol class="doc-nav">
+						<ul class="doc-nav">
 							<li>
-								<a class="nav-link" href="/reward-race-overview/overview.html">Reward Race Overview</a>
+								<a class="nav-link" href="doc.html">Reward Race Overview</a>
 							</li>
 							<li><a class="nav-link" href="/dashbord/dashboard.html">Dashboard</a></li>
-
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="/reward-program/reward-program.html">Reward Program</a>
-								<ol class="sub-nav">
+								<ul class="sub-nav hidden">
 									<li>
 										<a class="nav-link" href="/reward-program/earn-points/earn-points.html">Ways to earn points</a>
-										<ol>
+										<ul>
 											<li>
 												<a class="nav-link" href="/reward-program/earn-points/sign-up.html">
 													Sign-up Reward</a>
@@ -124,12 +123,12 @@
 													Social Share Reward
 												</a>
 											</li>
-										</ol>
+										</ul>
 									</li>
 									<li>
 										<a class="nav-link" href="#section-2-2">Ways to redeem points</a>
-										<ol>
-											<li><a class="nav-link" href="#section-2-2-1">
+										<ul>
+											<li><a class="nav-link" href="/reward-program/redeem-point/discount.html">
 													Order Discount</a>
 											</li>
 											<li><a class="nav-link" href="#section-2-2-2">
@@ -138,35 +137,36 @@
 											<li><a class="nav-link" href="#section-2-2-3">
 													Free Product</a>
 											</li>
-										</ol>
+										</ul>
 									</li>
-								</ol>
+								</ul>
 							</li>
-							<li>
+
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-3">Referral Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-3-1">Generate Referral Link</a></li>
 									<li><a class="nav-link" href="#section-3-2">Referral Steps</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-4">VIP Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-4-1">VIP Tier Steps</a></li>
 									<li><a class="nav-link" href="#section-4-2">VIP Settings</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-5">Survey Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-5-1">Survey Steps</a></li>
 									<li><a class="nav-link" href="#section-5-2">Survey Report</a></li>
 									<li><a class="nav-link" href="#section-5-3">Widget Settings</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-6">Customers</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-6-1">Customers Data</a></li>
 									<li><a class="nav-link" href="#section-6-2">Customer Profile</a></li>
 									<li><a class="nav-link" href="#section-6-3">Import/Export</a></li>
@@ -175,9 +175,9 @@
 							<li>
 								<a class="nav-link" href="#section-7">Analytics</a>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-8">Settings</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-8-1">General settings</a></li>
 									<li><a class="nav-link" href="#section-8-2">Billing</a></li>
 									<li><a class="nav-link" href="#section-8-3">Branding</a></li>
@@ -186,7 +186,7 @@
 									<li><a class="nav-link" href="#section-8-6">Language</a></li>
 								</ol>
 							</li>
-						</ol>
+						</ul>
 					</nav>
 				</aside>
 				<main class="main">
@@ -194,24 +194,16 @@
 						<!-- ============================
 							Section 2.1 Start
 						 ================================ -->
-
-						<section id="section-2-1-4">
-							<h3>2.1.4 Social Share Rewards</h3>
+						<section>
+							<h3>Social Share Rewards</h3>
 							<p>1. "Social media rewards" settings is a great way to make customers engaging with your
 								store on social media. Customers can earn points for actions like following your social
 								media accounts, sharing your products, or liking your posts. This not only encourages
 								customer loyalty but also helps increase your brand’s visibility online. You can easily
 								set up these social media rewards in the app and start boosting your online engagement!
 							</p>
-							<img src="assets/images/doc/social.png" alt="">
-							<h3>2.1.4 Social Share Rewards</h3>
-							<p>
-								"Social Share Rewards" is an excellent feature to drive customer engagement on social
-								media. Customers can earn points for interacting with your brand's social accounts, such
-								as liking, sharing, or following. This not only boosts customer loyalty but also
-								increases your brand’s visibility and reach online. Below are the specific social media
-								actions you can set up with their respective rewards:
-							</p>
+							<img src="/assets/images/doc/points-img/social.png" alt="social">
+
 							<!-- Facebook Like -->
 							<h4>1. Facebook Like</h4>
 							<p>Reward customers with points for liking your Facebook page. This is a simple yet
@@ -225,7 +217,7 @@
 									earn for liking your page. For example, awarding 10–20 points can be a great
 									incentive without being overly generous.</li>
 							</ul>
-							<img src="assets/images/doc/facebook-like.png" alt="Facebook Like Reward Setup">
+							<img src="/assets/images/doc/points-img/facebook-like.png" alt="Facebook Like Reward Setup">
 
 							<!-- Follow Instagram  -->
 							<h4>2. Follow on Instagram</h4>
@@ -241,7 +233,7 @@
 									reward your customers for following your Instagram account. For example, 10–15
 									points is often an effective incentive.</li>
 							</ul>
-							<img src="assets/images/doc/instagram.png" alt="Instagram Follow Reward Setup">
+							<img src="/assets/images/doc/points-img/instagram.png" alt="Instagram Follow Reward Setup">
 
 							<!-- X Follow -->
 							<h4>3. X (Twitter) Follow</h4>
@@ -257,7 +249,7 @@
 									earn for following your account. A range of 10–15 points is usually effective in
 									motivating followers.</li>
 							</ul>
-							<img src="assets/images/doc/twitter-follow.png" alt="X Like Reward Setup">
+							<img src="/assets/images/doc/points-img/twitter-follow.png" alt="X Like Reward Setup">
 
 							<!-- Facebook Share -->
 							<h4>4. Facebook Share</h4>
@@ -272,7 +264,7 @@
 									earn for sharing your business. A range of 10–20 points is generally effective in
 									encouraging engagement.</li>
 							</ul>
-							<img src="assets/images/doc/facebook-share.png" alt="Facebook Share Reward Setup">
+							<img src="/assets/images/doc/points-img/facebook-share.png" alt="Facebook Share Reward Setup">
 
 
 							<!-- X share -->
@@ -291,7 +283,7 @@
 									earn for sharing your posts. Typically, 10–20 points work well to encourage
 									participation.</li>
 							</ul>
-							<img src="assets/images/doc/x-share.png" alt="X Share Reward Setup">
+							<img src="/assets/images/doc/points-img/x-share.png" alt="X Share Reward Setup">
 
 
 

@@ -92,79 +92,80 @@
 								<input type="text" class="search-input" placeholder="Search item" />
 							</div>
 						</form>
-						<ol class="doc-nav">
+						<ul class="doc-nav">
 							<li>
-								<a class="nav-link" href="/reward-race-overview/overview.html">Reward Race Overview</a>
+								<a class="nav-link" href="doc.html">Reward Race Overview</a>
 							</li>
 							<li><a class="nav-link" href="/dashbord/dashboard.html">Dashboard</a></li>
-							<li>
-								<a class="nav-link" href="#section-2">Reward Program</a>
-								<ol class="sub-nav">
+							<li class="has-sub-menu">
+								<a class="nav-link" href="/reward-program/reward-program.html">Reward Program</a>
+								<ul class="sub-nav hidden">
 									<li>
-										<a class="nav-link" href="#section-2-1">Ways to earn points</a>
-										<ol>
+										<a class="nav-link" href="/reward-program/earn-points/earn-points.html">Ways to earn points</a>
+										<ul>
 											<li>
-												<a class="nav-link" href="#section-2-1-1">
+												<a class="nav-link" href="/reward-program/earn-points/sign-up.html">
 													Sign-up Reward</a>
 											</li>
 											<li>
-												<a class="nav-link" href="#section-2-1-2">
+												<a class="nav-link" href="/reward-program/earn-points/purchase-reward.html">
 													Purchase Reward
 												</a>
 											</li>
 											<li>
-												<a class="nav-link" href="#section-2-1-3">
+												<a class="nav-link" href="/reward-program/earn-points/birthday-reward.html">
 													Birthday Reward
 												</a>
 											</li>
 											<li>
-												<a class="nav-link" href="#section-2-1-4">
+												<a class="nav-link" href="/reward-program/earn-points/social-share-reward.html">
 													Social Share Reward
 												</a>
 											</li>
-										</ol>
+										</ul>
 									</li>
 									<li>
 										<a class="nav-link" href="#section-2-2">Ways to redeem points</a>
-										<ol>
-											<li><a class="nav-link" href="#section-2-2-1">
+										<ul>
+											<li><a class="nav-link" href="/reward-program/redeem-point/discount.html">
 													Order Discount</a>
 											</li>
-											<li><a class="nav-link" href="#section-2-2-2">
-													Free Shipping</a>
+											<li><a class="nav-link" href="/reward-program/redeem-point/free-shipping.html">
+												Free Shipping</a>
 											</li>
-											<li><a class="nav-link" href="#section-2-2-3">
-													Free Product</a>
+											<li><a class="nav-link" href="/reward-program/redeem-point/free-product.html">
+												Free Product</a>
 											</li>
-										</ol>
+										</ul>
 									</li>
-								</ol>
+								</ul>
 							</li>
-							<li>
+
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-3">Referral Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-3-1">Generate Referral Link</a></li>
 									<li><a class="nav-link" href="#section-3-2">Referral Steps</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-4">VIP Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-4-1">VIP Tier Steps</a></li>
 									<li><a class="nav-link" href="#section-4-2">VIP Settings</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-5">Survey Program</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-5-1">Survey Steps</a></li>
 									<li><a class="nav-link" href="#section-5-2">Survey Report</a></li>
 									<li><a class="nav-link" href="#section-5-3">Widget Settings</a></li>
 								</ol>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-6">Customers</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-6-1">Customers Data</a></li>
 									<li><a class="nav-link" href="#section-6-2">Customer Profile</a></li>
 									<li><a class="nav-link" href="#section-6-3">Import/Export</a></li>
@@ -173,9 +174,9 @@
 							<li>
 								<a class="nav-link" href="#section-7">Analytics</a>
 							</li>
-							<li>
+							<li class="has-sub-menu">
 								<a class="nav-link" href="#section-8">Settings</a>
-								<ol class="sub-nav">
+								<ol class="sub-nav hidden">
 									<li><a class="nav-link" href="#section-8-1">General settings</a></li>
 									<li><a class="nav-link" href="#section-8-2">Billing</a></li>
 									<li><a class="nav-link" href="#section-8-3">Branding</a></li>
@@ -184,7 +185,7 @@
 									<li><a class="nav-link" href="#section-8-6">Language</a></li>
 								</ol>
 							</li>
-						</ol>
+						</ul>
 					</nav>
 				</aside>
 				<main class="main">
@@ -193,16 +194,25 @@
 							Section 2.2 Start
 						================================ -->
 						<section id="section-2-2-2">
-							<h3>2.2.2. Free Shipping</h3>
-							<p> The "Free Shipping Coupon" feature allows you to reward loyal customers by offering free
+							<h3>Free Shipping</h3>
+							<p> The <strong> Free Shipping Coupon </strong> feature allows you to reward loyal customers by offering free
 								or discounted shipping in exchange for their loyalty points. This encourages repeat
 								purchases while minimizing shipping costs for your customers. </p>
+
 							<h4>How to Set It Up:</h4>
-							<p><strong>1. Points Cost:</strong> Determine how many points a customer must redeem to
-								claim a free shipping coupon.</p>
-							<p><strong>2. Maximum Shipping Amount:</strong> Specify the maximum shipping value that the
-								coupon will cover. For instance, if the maximum amount is set to $10, the coupon will
-								cover shipping costs up to that limit.</p>
+							<p><strong>1. Set Reward Name :</strong> Provide a clear and descriptive name for the discount. This name should help you and your customers easily identify the purpose of the discount. </p>
+							<img src="/assets/images/doc/points-img/discount-name.png" alt="discount-name">
+							
+							<p><strong>1. Points Cost:</strong> Specify the number of points a customer needs to redeem in order to claim a free shipping coupon. This is a required field; you must set the points value to proceed with the setup. </p>
+							<img src="/assets/images/doc/points-img/point-setup.png" alt="point-setup">
+
+							<p><strong>4. Minimum Order Value:</strong> You’ll also need to set a minimum order value.
+								This means customers must reach a certain order amount before they can use the discount.
+								For example, you can set a minimum order value of $50, which means customers can only
+								use the discount if their total purchase is greater than or equal to $50.</p>
+							<img src="/assets/images/doc/points-img/minimum-order.png" alt="discount-type">
+
+							<p><strong>2. Maximum Shipping Amount:</strong>  This option allows you to define a maximum limit for shipping costs that can be covered by the reward. When enabled, enter the maximum shipping amount in the input field. Customers will only be able to use the reward up to this amount, ensuring better control over shipping expenses.</p>
 							<h4>Example:</h4>
 							<ol>
 								<li>You set the Points Cost to 100 points and the Maximum Shipping Amount to $10.</li>
@@ -211,13 +221,15 @@
 								<li>If the shipping cost is $8, the entire cost is covered. However, if the shipping
 									cost is $12, the coupon will cover $10, and the customer will pay the remaining $2.
 								</li>
-							</ol> <img src="assets/images/doc/shipping2.png" alt="Free Shipping Example" />
+							</ol>
+							<img src="/assets/images/doc/points-img/maximum-shipping.png" alt="maximum-shipping" />
 							<h4>Additional Settings:</h4>
 							<p><strong>3. Choose Country:</strong> You can specify where the free shipping coupon
 								applies. Select one or more countries, or choose all countries. You can also deselect
 								countries after selection if needed. This ensures you can tailor your rewards to
 								specific regions or a global audience.</p>
-							<img src="assets/images/doc/shipping1.png" alt="" />
+								
+							<img src="/assets/images/doc/points-img/shipping-country.png" alt="maximum-shipping" />
 							<div class="tips">
 								<h4>Quick Tips for Free Shipping Rewards:</h4>
 								<ol>
